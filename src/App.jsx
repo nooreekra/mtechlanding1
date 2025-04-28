@@ -3,8 +3,6 @@ import './App.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import back from './assets/back.gif'
-
-
 import logo from "./assets/mtechlogo.png";
 
 function App() {
@@ -37,7 +35,6 @@ function App() {
                     </nav>
 
                     {/* Мобильное меню */}
-                    {/* Мобильное меню с анимацией */}
                     <div
                         className={`
                         flex flex-col items-center bg-primary text-white md:hidden space-y-4 overflow-hidden transition-all duration-300 ease-in-out 
